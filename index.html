@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .baslik {
+    background-color: plum !important;
+    font-size: 40px;
+    font-style: italic;
+    font-style: normal;
+    background-color: aqua;
+    background-color: blue;
+    /* kodlar yukarıdan aşağı doğru okunur */
+  }
+
+  p {
+    font-size: 35px;
+    color: purple;
+  }
+
+  .sekillendir {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+  }
+
+  .resimlidiv {
+    background-image: url(resim.jpg);
+
+    background: linear-gradient(rgb(122, 123, 225, 0.4), rgb(123, 21, 43, 0.4)), url(resim.jpg);
+    /* renk kodumuzdaki 0.4 opaklığını ifade eder 0-1 arası değer alır */
+
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .paragraf {
+    color: red;
+    line-height: 4;
+    letter-spacing: 10px;
+  }
+</style>
+
+<body>
+  <div>
+    <h1 id="baslik2">merhaba</h1>
+    <h6 class="baslik">merhaba</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, suscipit?</p>
+    <p>Corrupti exercitationem iure cumque dolores iusto amet recusandae sapiente? Vel.</p>
+    <p>Molestias facere et perspiciatis debitis quos incidunt ad dolorem magnam.</p>
+    <p class="paragraf">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officiis repudiandae
+      dicta, nihil, deserunt id quam assumenda voluptate libero obcaecati porro corporis veritatis eius earum nemo
+      facere. Error quasi eveniet, nobis nostrum nam esse optio explicabo earum natus reiciendis illum iure accusantium
+      possimus quis tempora mollitia repellendus repudiandae dolores voluptatum. Veritatis magni ipsam corrupti
+      perferendis quos. Quos voluptatum voluptas nihil, sed earum officia rem consequatur nobis, odio mollitia, dolorum
+      numquam. Soluta placeat architecto alias obcaecati ipsam consequuntur accusamus ex rerum doloremque tempora
+      necessitatibus accusantium voluptatum praesentium vitae asperiores quidem totam veritatis in hic labore, possimus
+      ab iste voluptate? Ducimus, officia!</p>
+
+    <div class="sekillendir"></div>
+
+    <div class="resimlidiv">
+
+    </div>
+  </div>
+
+  <ul style="border: 1px solid black;">
+    <li>Lorem, ipsum.</li>
+    <li>Quo, molestias.</li>
+    <li>Totam, eaque.</li>
+  </ul>
+  <img src="resim1.jpg" height="50" width="50" alt="">
+
+  <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, accusamus!</b>
+
+  <h1>merhaba</h1>
+</body>
+
+</html>
